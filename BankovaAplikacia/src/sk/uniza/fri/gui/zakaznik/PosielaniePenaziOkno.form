@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="sk.uniza.fri.gui.zakaznik.PosielaniePenaziOkno">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="3" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="882" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <vspacer id="2dd4d">
+        <constraints>
+          <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="81ded" class="javax.swing.JLabel" binding="ibanL">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="IBAN"/>
+        </properties>
+      </component>
+      <component id="b6694" class="javax.swing.JLabel" binding="pinL">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="PIN"/>
+        </properties>
+      </component>
+      <component id="18438" class="javax.swing.JPasswordField" binding="pinPF">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4f630" class="javax.swing.JTextField" binding="kodKrajinyTF">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="2"/>
+          <text value="SK"/>
+        </properties>
+      </component>
+      <component id="ec3d9" class="javax.swing.JTextField" binding="kontrolneCisliceTF">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="2"/>
+          <text value="68"/>
+        </properties>
+      </component>
+      <component id="e442a" class="javax.swing.JTextField" binding="kodBankyTF">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="4"/>
+          <text value="0720"/>
+        </properties>
+      </component>
+      <component id="1dad1" class="javax.swing.JTextField" binding="predcislieTF">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="6"/>
+        </properties>
+      </component>
+      <component id="6b125" class="javax.swing.JTextField" binding="zaklCisloUctuTF">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="10"/>
+        </properties>
+      </component>
+      <component id="3ffce" class="javax.swing.JButton" binding="posliB">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Poslať"/>
+        </properties>
+      </component>
+      <component id="4ab7" class="javax.swing.JButton" binding="zrusB">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Zrušiť"/>
+        </properties>
+      </component>
+      <component id="b8a4d" class="javax.swing.JLabel" binding="obnosL">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Obnos"/>
+        </properties>
+      </component>
+      <component id="5183c" class="javax.swing.JTextField" binding="obnosTF">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
